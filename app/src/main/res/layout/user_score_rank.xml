@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="500px">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <TextView
+        android:id="@+id/rankHint"
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:textSize="100px"
+        android:gravity="center"
+        android:text="排行榜为空哦~"/>
+
+    <View
+        android:layout_marginTop="5px"
+        android:layout_marginBottom="5px"
+        android:layout_width="match_parent"
+        android:layout_height="2px"
+        android:background="@color/Color_B"/>
+
+    <Button
+        android:id="@+id/btnOk"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@color/Color_D"
+        android:layout_gravity="center_horizontal"
+        android:text="确定"
+        android:textSize="48px"
+        android:textColor="@color/white" />
+
+</LinearLayout>

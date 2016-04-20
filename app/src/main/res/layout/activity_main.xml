@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.my2048project.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <TextView
+            android:id="@+id/staticScore"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:gravity="center_vertical|right"
+            android:text="分数："
+            android:textColor="@color/Color_C"
+            android:textSize="100px"/>
+
+        <TextView
+            android:id="@+id/txtScore"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:textColor="@color/Color_C"
+            android:gravity="center_vertical|left"
+            android:textSize="100px"/>
+
+    </LinearLayout>
+    <com.example.my2048project.view.My2048View
+        android:id="@+id/gameView"
+        android:layout_width="1000px"
+        android:layout_height="1000px"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+        <Button
+            android:id="@+id/btnRestart"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:layout_gravity="bottom"
+            android:background="@color/Color_U"
+            android:text="重新开始"
+            android:textSize="100px"
+            />
+
+        <Button
+            android:id="@+id/btnRank"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="排行榜"
+            android:textSize="100px"
+            android:background="@color/Color_E"
+            android:layout_gravity="bottom"
+            />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+
+    <!--此处需要统一color命名-->
+    <color name="Color_A">#333333</color>  <!--主颜色 黑-->
+    <color name="Color_B">#858585</color>  <!-- 主颜色 灰-->
+    <color name="Color_C">#f1474e</color>  <!-- 主颜色 红-->
+    <color name="Color_D">#2290ed</color>  <!-- 主颜色 蓝-->
+
+    <color name="Color_E">#fd5196</color>  <!-- 辅颜色 E-->
+    <color name="Color_F">#9492fd</color>  <!--  辅颜色 F-->
+    <color name="Color_G">#7193ea</color>  <!--  辅颜色 G-->
+
+    <color name="Color_H">#ff8623</color>  <!--  辅颜色 H-->
+    <color name="Color_L">#02c562</color>  <!--  辅颜色 L-->
+    <color name="Color_J">#e2e2ea</color>  <!--  辅颜色 J 背景颜色-->
+
+    <color name="Color_M">#000000</color>  <!--  字体 栏目列表标题 -->
+    <color name="Color_N">#7a888a</color>  <!--  点缀字体 标题颜色 -->
+    <color name="Color_P">#273238</color>  <!--  点缀字体 具体内容 -->
+    <color name="Color_O">#aeaeae</color>  <!--  字体 input -->
+    <color name="Color_I">#bfc2d1</color>  <!--  登录 edittext-->
+    <color name="Color_K">#419ada</color>  <!--  我 浅蓝色-->
+    <color name="Color_T">#288dff</color>  <!--  信用额度 浅蓝色-->
+    <color name="Color_S">#479eff</color>  <!--  信用额度 环内蓝色-->
+    <color name="Color_R">#2586f4</color>  <!--  信用额度 环  颜色-->
+    <color name="Color_U">#83ff80</color>  <!--  信用额度 环  颜色-->
+
+    <color name="Color_Q">#f1f2f8</color>  <!--  筛选和排序背景 -->
+    <color name="Color_W">#f7f7f7</color>  <!--  妥投背景 -->
+    <color name="Color_X">#cbcbcb</color>  <!--  扫描收件界面字体颜色 -->
+
+    <color name="Color_Y">#ececf2</color>  <!--  app背景粉色 -->
+
+    <color name="Color_Z">#9090f7</color>  <!--  紫色 -->
+
+    <color name="white">#ffffff</color>
+    <color name="half_white">#7fffffff</color>
+    <color name="line">#d3d3d3</color>
+    <color name="border">#8f8f8f</color>
+    <color name="transparent">#00000000</color>
+    <color name="fuzzy_transparent_white">#d8dddee6</color>
+    <color name="transparent_white_50">#7f000000</color>
+
+    <color name="tab_index_red">#f0474e</color>
+
+    <color name="Color_C_half">#c0f1474e</color>
+
+    <color name="Color_Y_light">#FAFAFC</color>
+
+    <color name="Color_G_unable">#c3c3c3</color>
+    <color name="Color_B_press">#6d6d6d</color>   <!-- 主颜色 灰 按下效果-->
+    <color name="Color_C_press">#c1253b</color>         <!-- 主颜色 红 按下效果-->
+    <color name="Color_D_press">#359df6</color>         <!-- 主颜色 蓝 按下效果-->
+</resources>
